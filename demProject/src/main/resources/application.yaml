@@ -1,0 +1,15 @@
+spring:
+  application:
+  name: demProject
+  datasource:
+    url: jdbc:postgresql://localhost:5432/projectZomboid
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  security:
+    user:
+      name: 123
+      password: 123
